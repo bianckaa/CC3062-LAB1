@@ -1,4 +1,4 @@
-## Bandit Level 1
+## Bandit Level 0
 **Objetivo:**  
 Encontrar la contraseña del siguiente nivel.
 **Comandos utilizados:**
@@ -13,12 +13,12 @@ Se listaron los archivos y se abrió el archivo readme para ver cual era la cont
 ## Contraseña obtenida:
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-## Bandit Level 2
+## Bandit Level 1
 **Objetivo:**  
 Encontrar la contraseña del siguiente nivel.
 **Comandos utilizados:**
 ```bash
-ls -alps
+ls 
 cat ./-
 ```
 
@@ -27,3 +27,18 @@ Se listaron los archivos y se abrió el archivo con nombre - utilizando una ruta
 
 ## Contraseña obtenida:
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+## Bandit Level 2
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+ls 
+cat ./--spaces\ in\ this\ filename--
+```
+
+## Explicación:
+Se listaron los archivos y se abrió el archivo con nombre --spaces in this filename-- utilizando una ruta relativa (./--spaces\ in\ this\ filename--) para que el comando cat no lo malinterpretará
+
+## Contraseña obtenida:
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
