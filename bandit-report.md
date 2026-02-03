@@ -12,3 +12,18 @@ Se listaron los archivos y se abrió el archivo readme para ver cual era la cont
 
 ## Contraseña obtenida:
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+## Bandit Level 2
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+ls -alps
+cat ./-
+```
+
+## Explicación:
+Se listaron los archivos y se abrió el archivo con nombre - utilizando una ruta relativa (./-)
+
+## Contraseña obtenida:
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
