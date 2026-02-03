@@ -154,3 +154,18 @@ Se extrajo el texto de un archivo binario y se filtraron las líneas que conten�
 
 ## Contraseña obtenida:
 FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+## Bandit Level 10
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+cat data.txt
+base64 -d data.txt
+```
+
+## Explicación:
+Se identificó que el contenido del archivo data.txt estaba codificado en Base64 y se utilizó la herramienta correspondiente para decodificarlo y obtener la contraseña.
+
+## Contraseña obtenida:
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
