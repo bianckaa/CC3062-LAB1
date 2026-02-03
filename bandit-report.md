@@ -42,3 +42,20 @@ Se listaron los archivos y se abrió el archivo con nombre --spaces in this file
 
 ## Contraseña obtenida:
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+## Bandit Level 3
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+ls 
+cd inhere
+ls -al
+cat ...Hiding-From-You
+```
+
+## Explicación:
+Se listaron los archivos ocultos y se abrió el archivo con nombre ...Hiding-From-You 
+
+## Contraseña obtenida:
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
