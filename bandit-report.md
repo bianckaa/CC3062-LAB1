@@ -95,3 +95,18 @@ Se ingresó al directorio indicado y se realizó una búsqueda de archivos segú
 
 ## Contraseña obtenida:
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+## Bandit Level 6
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+find / -type f -user bandit7 -group bandit6 -size 33c
+cat /var/lib/dpkg/info/bandit7.password
+```
+
+## Explicación:
+Se realizó una búsqueda en todo el sistema para localizar un archivo que cumpliera con condiciones específicas de usuario, grupo y tamaño. Una vez identificado el archivo correcto, se accedió a su contenido.
+
+## Contraseña obtenida:
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
