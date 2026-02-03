@@ -59,3 +59,21 @@ Se listaron los archivos ocultos y se abrió el archivo con nombre ...Hiding-Fro
 
 ## Contraseña obtenida:
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+## Bandit Level 4
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+ls -alps
+cd inhere/
+ls
+find . -type f | xargs file
+cat ./-file07
+```
+
+## Explicación:
+Se listaron los archivos del directorio inhere y se usó el comando file para identificar el único archivo con contenido ASCII. Luego se leyó este archivo (-file07) usando una ruta relativa para evitar que fuera malinterpretado. 
+
+## Contraseña obtenida:
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
