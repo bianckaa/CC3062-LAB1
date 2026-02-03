@@ -131,7 +131,8 @@ dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 Encontrar la contraseña del siguiente nivel.
 **Comandos utilizados:**
 ```bash
-
+cat data.txt
+sort data.txt | uniq -c
 ```
 
 ## Explicación:
