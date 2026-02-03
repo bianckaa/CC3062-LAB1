@@ -140,3 +140,17 @@ Se analizó un archivo con muchas líneas repetidas y se identificó la única l
 
 ## Contraseña obtenida:
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+## Bandit Level 9
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+strings data.txt | grep "="
+```
+
+## Explicación:
+Se extrajo el texto de un archivo binario y se filtraron las líneas que contenían el carácter “=”, identificando la línea donde se encontraba la contraseña.
+
+## Contraseña obtenida:
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
