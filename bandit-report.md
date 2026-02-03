@@ -110,3 +110,18 @@ Se realizó una búsqueda en todo el sistema para localizar un archivo que cumpl
 
 ## Contraseña obtenida:
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+## Bandit Level 7
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+ls -alps
+strings data.txt | grep "millionth"
+```
+
+## Explicación:
+Se analizó un archivo de gran tamaño para extraer texto y se filtró la información hasta encontrar la línea que contenía la contraseña.
+
+## Contraseña obtenida:
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
