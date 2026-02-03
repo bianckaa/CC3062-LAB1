@@ -125,3 +125,17 @@ Se analizó un archivo de gran tamaño para extraer texto y se filtró la inform
 
 ## Contraseña obtenida:
 dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+## Bandit Level 8
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+
+```
+
+## Explicación:
+Se analizó un archivo con muchas líneas repetidas y se identificó la única línea que aparecía una sola vez, la cual es la que contenía la contraseña.
+
+## Contraseña obtenida:
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
