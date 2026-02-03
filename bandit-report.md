@@ -169,3 +169,17 @@ Se identificó que el contenido del archivo data.txt estaba codificado en Base64
 
 ## Contraseña obtenida:
 dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+## Bandit Level 11
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+```
+
+## Explicación:
+Se identificó que el contenido del archivo data.txt estaba cifrado con ROT13 y se aplicó dicha rotación para transformar el texto y obtener la contraseña.
+
+## Contraseña obtenida:
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
