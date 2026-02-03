@@ -77,3 +77,21 @@ Se listaron los archivos del directorio inhere y se usó el comando file para id
 
 ## Contraseña obtenida:
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+## Bandit Level 5
+**Objetivo:**  
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+```bash
+ls 
+cd inhere/
+ls
+find . -type f -size 1033c ! -executable
+ cat ./maybehere07/.file2
+```
+
+## Explicación:
+Se ingresó al directorio indicado y se realizó una búsqueda de archivos según su tamaño y permisos, identificando el archivo correcto para luego acceder a su contenido y obtener la contraseña.
+
+## Contraseña obtenida:
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
